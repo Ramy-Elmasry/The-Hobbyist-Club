@@ -37,3 +37,11 @@ td {
     border: 1px solid #ddd;
     padding: 10px 12px;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 6px;
+}

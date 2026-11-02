@@ -49,34 +49,36 @@ CSC 111 Nile University Group Project
 
 ---
 
-## 3. Pending Content & Text Cleanup
+## 3. Content & Text Cleanup
 
-- [ ] **Fix Section Heading in `index.html` (Line 30)**
-  - Current: `<h2>place holder text</h2>`
-  - Action: Replace with `<h2>Explore Our Hobbies</h2>` or `<h2>Featured Hobbies</h2>`.
-- [ ] **Replace Placeholder Descriptions for Hobbies in `index.html`**
-  - [ ] **Formula 1 Card (Line 38-40):** Add a 1–2 sentence summary of F1 engineering and following Ferrari.
-  - [ ] **Basketball Card (Line 43-45):** Add a 1–2 sentence summary of basketball teamwork, athleticism, and excitement.
-  - [ ] **Volleyball Card (Line 48-50):** Add a 1–2 sentence summary of indoor and beach volleyball dynamics.
-  - [ ] **Football Card (Line 53-55):** Add a 1–2 sentence summary of global football tactics and match-day passion.
-- [ ] **Refine Hero Section Text in `index.html` (Line 25)**
-  - Remove repeated `"place holder textplace holder text"` and describe the project as a shared portfolio exploring diverse hobbies.
-- [ ] **Replace Placeholders in `about.html`**
-  - [ ] Line 25: Replace placeholder under "About The Project" with university course details (CSC 111) and site scope.
-  - [ ] Line 34: Replace placeholder under "Goal 1: Share Hobbies".
-  - [ ] Line 39: Replace placeholder under "Goal 2: Team Collaboration".
+- [x] **Fix Section Heading in `index.html` (Line 30)**
+  - Replaced `<h2>place holder text</h2>` with `<h2>Featured Hobbies</h2>`.
+- [x] **Replace Placeholder Descriptions for Hobbies in `index.html`**
+  - [x] **Formula 1 Card:** Added summary of F1 engineering, Ferrari, and race weekend dynamics.
+  - [x] **Basketball Card:** Added summary of basketball teamwork, fast-paced play, and LeBron James.
+  - [x] **Volleyball Card:** Added summary of indoor and beach volleyball dynamics and teamwork.
+  - [x] **Football Card:** Added summary of football tactics, excitement, and teamwork.
+- [x] **Refine Hero Section Text in `index.html`**
+  - Removed placeholder text and clearly introduced the CSC 111 project portfolio.
+- [x] **Replace Placeholders in `about.html`**
+  - [x] Replaced placeholder under "About The Project" with university course details (CSC 111).
+  - [x] Replaced placeholder under "Goal 1: Share Hobbies".
+  - [x] Replaced placeholder under "Goal 2: Team Collaboration".
 
 ---
 
-## 4. 6th Member Integration (Pending Submission)
+## 4. 6th Member Integration
 
-- [ ] **Receive 6th Member's Code & Info**
-  - Name, Student ID, and Hobby topic.
-  - Create directory and add their 2 HTML pages.
-- [ ] **Add 6th Member Card to `about.html`**
-  - Add their name, ID, and links to their 2 subpages.
-- [ ] **Add 6th Member Hobby Card to `index.html`**
-  - Add card under Featured Hobbies linking to their `index.html`.
+- [x] **Receive 6th Member's Info**
+  - Name: Yehia Shendy Yehia Shendy, Student ID: 261001243.
+- [x] **Add 6th Member Card to `about.html`**
+  - Added Yehia Shendy Yehia Shendy id: 261001243 with live links to his two subpages.
+- [x] **Create 6th Member's 2 Hobby Pages (`Yehia S/`)**
+  - `Yehia S/index.html`: Football basics, pitch diagram, and essential rules.
+  - `Yehia S/page2.html`: Major tournaments (FIFA World Cup, Champions League) and football legends.
+  - Embedded local images: `football_pitch.jpg` and `trophy.jpg`.
+- [x] **Add 6th Member Hobby Card to `index.html`**
+  - Added World Football card linking to `Yehia S/index.html`.
 
 ---
 
@@ -85,6 +87,9 @@ CSC 111 Nile University Group Project
 - [x] **Ramy A:** Linked to shared `style.css` (qualifies).
 - [x] **Omar A:** Internal CSS block in `<head>` (qualifies).
 - [x] **Marogina A:** Internal CSS block in `<head>` (qualifies).
+- [x] **Yehia S:** Internal CSS block in `<head>` (qualifies).
+- [ ] **Jerome G:** Uncomment stylesheet link and fix relative path (`../style.css`) or add internal `<style>` rules.
+- [ ] **Omar N:** Add CSS styling (either link to `../style.css` or add internal `<style>` block).
 - [ ] **Jerome G:** Uncomment stylesheet link and fix relative path (`../style.css`) or add internal `<style>` rules.
 - [ ] **Omar N:** Add CSS styling (either link to `../style.css` or add internal `<style>` block).
 
@@ -94,8 +99,8 @@ CSC 111 Nile University Group Project
 
 - [ ] **Add Link Styling for Subpage Navigators**
   - Ensure links inside `.card a` have clear visual distinction (underlines, color accents, hover states).
-- [ ] **Add Responsive Image Rules**
-  - Add `img { max-width: 100%; height: auto; }` so images don't overflow smaller screens.
+- [x] **Add Responsive Image Rules**
+  - Added `img { max-width: 100%; height: auto; display: block; margin: 15px auto; border-radius: 6px; }` to support responsive images across subpages.
 - [ ] **Add Table Styling**
   - Add `table { width: 100%; border-collapse: collapse; margin-top: 10px; }` to improve formatting for tables used in subpages.
 

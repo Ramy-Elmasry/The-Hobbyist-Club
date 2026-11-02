@@ -130,8 +130,9 @@ During the final discussion, the instructor will ask each member what they perso
 * **His Unique Feature:** Tabular data presentation (`<table>`) and shared site-wide CSS.
 * **Talking Point:** *"I built the essential gear checklist using a semantic HTML table (`<table>`, `<tr>`, `<th>`, `<td>`), and structured the global `style.css` stylesheet ensuring layout consistency across all project pages."*
 
-### Member 6 (When Code Arrives):
-* **Plug-and-Play Strategy:** As soon as the 6th member provides their topic and text, drop it into the Unified Skeleton template above so their pages immediately match the rest of the project.
+### Yehia Shendy (Football Basics):
+* **His Unique Feature:** Simple clean HTML tags, lists, and embedded images.
+* **Talking Point:** *"I built my two pages using basic HTML headings, paragraphs, and lists (`<ul>`, `<li>`), embedded images (`<img>`) with set widths, and added minimal CSS for margins and font styling."*
 
 ---
 
