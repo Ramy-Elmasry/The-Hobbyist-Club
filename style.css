@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 header,
 footer {
     background: #222;
@@ -32,7 +36,8 @@ td {
 }
 
 img {
+    max-width: 100%;
     height: auto;
+    display: block;
     margin: 15px auto;
-    border-radius: 6px;
 }

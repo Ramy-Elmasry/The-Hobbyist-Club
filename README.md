@@ -5,18 +5,27 @@ CSC 111 Nile University Group Project
 
 ---
 
+## Team Members
+
+| Name | Student ID | Topic / Hobby | Subpages |
+| :--- | :--- | :--- | :--- |
+| **Ramy Abdallah Mohamed** | `261000946` | Cycling | [`Ramy A/index.html`](Ramy%20A/index.html), [`Ramy A/page2.html`](Ramy%20A/page2.html) |
+| **Jerome Benjamin** | `216001672` | Formula 1 | [`Jerome G/index.html`](Jerome%20G/index.html), [`Jerome G/weekend.html`](Jerome%20G/weekend.html) |
+| **Omar Ahmed Mohamed Wasfat** | `261002098` | Football | [`Omar A/index.html`](Omar%20A/index.html), [`Omar A/page2.html`](Omar%20A/page2.html) |
+| **Omar Ahmed Salah Aldeen Nayel** | `261003052` | Basketball | [`Omar N/index.html`](Omar%20N/index.html), [`Omar N/page2.html`](Omar%20N/page2.html) |
+| **Marogina Ashraf Samir** | `261000482` | Volleyball | [`Marogina A/basics.html`](Marogina%20A/basics.html), [`Marogina A/types.html`](Marogina%20A/types.html) |
+| **Yehia Shendy Yehia Shendy** | `261001243` | World Football | [`Yehia S/index.html`](Yehia%20S/index.html), [`Yehia S/page2.html`](Yehia%20S/page2.html) |
+
+---
+
 # Action Plan & TODO List
 
 **Target Files in Root:**
-- [`index.html`](file:///home/cryptic256/code/web/The-Hobbyist-Club/index.html)
-
-- [`about.html`](file:///home/cryptic256/code/web/The-Hobbyist-Club/about.html)
-
-- [`style.css`](file:///home/cryptic256/code/web/The-Hobbyist-Club/style.css)
-
-- [`cheatsheet.md`](file:///home/cryptic256/code/web/The-Hobbyist-Club/cheatsheet.md)
-
-- [`README.md`](file:///home/cryptic256/code/web/The-Hobbyist-Club/README.md)
+- [`index.html`](index.html)
+- [`about.html`](about.html)
+- [`style.css`](style.css)
+- [`cheatsheet.md`](cheatsheet.md)
+- [`README.md`](README.md)
 
 
 ---
@@ -32,11 +41,12 @@ CSC 111 Nile University Group Project
 - [x] **Connect All Team Member Subpages in `about.html`**
 
   - Replaced dead `<a>` placeholders with live, descriptive links to both subpages for each member:
-    - [x] **Jerome Benjamin:** `Jerome G/index.html` & `Jerome G/weekend.html`
-    - [x] **Omar Ahmed Mohamed Wasfat:** `Omar A/index.html` & `Omar A/page2.html`
-    - [x] **Omar Ahmed Salah Aldeen Nayel:** `Omar N/index.html` & `Omar N/page2.html`
-    - [x] **Marogina Ashraf Samir:** `Marogina A/basics.html` & `Marogina A/types.html`
-    - [x] **Ramy Abdallah Mohamed:** `Ramy A/index.html` & `Ramy A/page2.html`
+    - [x] **Jerome Benjamin (ID: 216001672):** `Jerome G/index.html` & `Jerome G/weekend.html`
+    - [x] **Omar Ahmed Mohamed Wasfat (ID: 261002098):** `Omar A/index.html` & `Omar A/page2.html`
+    - [x] **Omar Ahmed Salah Aldeen Nayel (ID: 261003052):** `Omar N/index.html` & `Omar N/page2.html`
+    - [x] **Marogina Ashraf Samir (ID: 261000482):** `Marogina A/basics.html` & `Marogina A/types.html`
+    - [x] **Ramy Abdallah Mohamed (ID: 261000946):** `Ramy A/index.html` & `Ramy A/page2.html`
+    - [x] **Yehia Shendy Yehia Shendy (ID: 261001243):** `Yehia S/index.html` & `Yehia S/page2.html`
 - [x] **Remove Inappropriate Card in `about.html`**
 
   - Removed "Member 6 (dead / kia)" card to maintain academic professionalism.
@@ -46,9 +56,10 @@ CSC 111 Nile University Group Project
   - [x] **Omar A:** Added `../index.html` (Main Home) alongside internal page navigation.
   - [x] **Omar N:** Added top `<nav>` with `../index.html` on both pages, cleaned up trailing `>` typo, and fixed internal player link.
   - [x] **Marogina A:** Added `../index.html` (Main Home) styled navigation buttons to both pages.
+  - [x] **Yehia S:** Added `../index.html` (Main Home) to both pages.
 - [x] **Automated Link Verification**
 
-  - Validated all anchor tags across all 11 HTML files; 100% of relative paths resolve cleanly without 404 errors.
+  - Validated all anchor tags across all 14 HTML files; 100% of relative paths resolve cleanly without 404 errors.
 
 ---
 
@@ -106,21 +117,17 @@ CSC 111 Nile University Group Project
 
 ## 5. CSS Bonus Marks (1.5 Marks per Student)
 
-- [x] **Ramy A:** Linked to shared `style.css` (qualifies).
+- [x] **Ramy Abdallah Mohamed (ID: 261000946):** Linked to shared `style.css` (qualifies).
 
-- [x] **Omar A:** Internal CSS block in `<head>` (qualifies).
+- [x] **Omar Ahmed Mohamed Wasfat (ID: 261002098):** Internal CSS block in `<head>` (qualifies).
 
-- [x] **Marogina A:** Internal CSS block in `<head>` (qualifies).
+- [x] **Marogina Ashraf Samir (ID: 261000482):** Internal CSS block in `<head>` (qualifies).
 
-- [x] **Yehia S:** Internal CSS block in `<head>` (qualifies).
+- [x] **Yehia Shendy Yehia Shendy (ID: 261001243):** Internal CSS block in `<head>` (qualifies).
 
-- [ ] **Jerome G:** Uncomment stylesheet link and fix relative path (`../style.css`) or add internal `<style>` rules.
+- [ ] **Jerome Benjamin (ID: 216001672):** Uncomment stylesheet link and fix relative path (`../style.css`) or add internal `<style>` rules.
 
-- [ ] **Omar N:** Add CSS styling (either link to `../style.css` or add internal `<style>` block).
-
-- [ ] **Jerome G:** Uncomment stylesheet link and fix relative path (`../style.css`) or add internal `<style>` rules.
-
-- [ ] **Omar N:** Add CSS styling (either link to `../style.css` or add internal `<style>` block).
+- [ ] **Omar Ahmed Salah Aldeen Nayel (ID: 261003052):** Add CSS styling (either link to `../style.css` or add internal `<style>` block).
 
 
 ---
@@ -139,12 +146,10 @@ CSC 111 Nile University Group Project
 
 ---
 
-## 7. Final Submission Checklist (Deadline: 31 October 2026)
+## 7. Final Submission Checklist (Deadline: 2026 November 8)
 
-- [ ] All team members verify their subpages render properly in standard browsers.
+- [x] All team members verify their subpages render properly in standard browsers.
 
-- [ ] Remove all remaining placeholder texts and debug comments.
+- [x] Remove all remaining placeholder texts and debug comments.
 
 - [ ] Package entire project into ONE `.zip` file containing all root files, stylesheets, and member folders with assets.
-
-- [ ] Every team member submits the `.zip` file individually on the portal before October 31.
